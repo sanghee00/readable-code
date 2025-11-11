@@ -4,8 +4,8 @@ public class Cell {
 
     private static final String FLAG_SIGN = "⚑";
     private static final String LAND_MINE_SIGN = "☼";
-    private static final String UNCHECKED_SIGN = "□";
-    private static final String EMPTY_SIGN = "■";
+    private static final String UNCHECKED_SIGN = "□ ";
+    private static final String EMPTY_SIGN = "■ ";
 
     private int nearByLandMineCount;
     private boolean isLandMine;
