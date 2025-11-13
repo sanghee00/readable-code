@@ -1,9 +1,9 @@
 package cleancode.minesweeper.tobe;
 
 // 개발자가 의도한 예외
-public class AppException extends RuntimeException {
+public class GameException extends RuntimeException {
 
-    public AppException(String message) {
+    public GameException(String message) {
         super(message);
     }
 }
